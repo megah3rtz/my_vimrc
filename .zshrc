@@ -1,10 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-export PATH=$HOME/bin:/usr/local/bin:/Users/jleaman/Library/Python/2.7/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:~/Library/Python/2.7/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jleaman/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 
 
 ZSH_TMUX_AUTOSTART="false"
@@ -103,5 +103,5 @@ export LANG=en_GB.UTF-8
 alias gs='git status'
 alias cls='clear'
 
-eval `ssh-agent`
-ssh-add ~/.ssh/*.pem
+#eval `ssh-agent`
+#ssh-add ~/.ssh/*.pem
